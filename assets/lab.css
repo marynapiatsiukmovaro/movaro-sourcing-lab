@@ -43,4 +43,15 @@ td .sup{font-size:11.5px;color:#5C544A}
 .tag.oem{background:#F3EADF;color:#8a6a3a}.tag.cheap{background:#E9F1EF;color:#3a6a64}
 .open{font-size:11.5px;color:#5E7052;margin-top:6px;display:inline-block}
 .wip{color:#9a8; font-style:italic; font-size:13px}
+/* product block = one product (photo+name+chars+verdict) + its suppliers table */
+.pblock{border:1px solid #E4DCCD;border-radius:11px;padding:13px 15px;margin:9px 0 16px;background:#fff}
+.phead{display:flex;gap:13px;align-items:flex-start;margin-bottom:8px}
+.phead img{width:66px;height:66px;object-fit:cover;border-radius:8px;border:1px solid #E4DCCD;flex:none;background:#fff}
+.phead .pn{font-family:'Cabin';font-weight:700;font-size:15px}
+.phead .pc{font-size:12.5px;color:#5C544A;margin:2px 0 4px}
+.phead .pe{font-size:12px;color:#4f5e42;font-weight:500}
+table.sup{margin:2px 0 0}
+table.sup th{font-size:10.5px}
+table.sup td{font-size:12px;padding:6px 9px}
+h2 .hx{font-family:'Cabin';font-size:12px;color:#fff;background:#5E7052;border-radius:6px;padding:2px 8px;margin-right:8px;letter-spacing:.06em}
 footer{margin-top:28px;font-size:12px;color:#8A8174;line-height:1.5}
