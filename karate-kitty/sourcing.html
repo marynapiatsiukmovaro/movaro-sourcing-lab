@@ -89,11 +89,11 @@ td.thumb img{width:64px;height:78px;object-fit:cover}
     <span class="kw">cat wrestling glove</span><span class="kw">cat wrestling puppet</span><span class="kw">cat hand puppet toy</span><span class="kw">cat kicker toy</span><span class="kw">interactive cat toy <span class="src">→ H5</span></span><span class="kw">cat teaser toy</span><br>
     <b>Глубина:</b> ключевые — <b>10 страниц</b> (Alibaba) / 5–10 (AliExpress); поиск по фото — <b>2 страницы/фото</b>. Сбор — VPS + US-прокси + браузер (Playwright). Один проход тегает все H1–H6.</div>
 
-  <div class="plat next">
-    <div class="ph">🟡 ALIBABA <span class="stg next" style="margin-left:auto">ПЕРВАЯ · сейчас</span></div>
-    <div class="bd"><p class="src">Старт сбора: (а) поиск по фото (выбранные кадры × 2 стр) + (б) 6 ключевых × 10 стр через быстрый браузер-харвестер. Результаты → карта-чекбоксы в Этапе 2.</p></div>
+  <div class="plat done">
+    <div class="ph">🟢 ALIBABA <span class="stg ok" style="margin-left:auto">готово</span></div>
+    <div class="bd"><p class="src">(а) <b>6 ключевых × 10 стр</b> — быстрый requests-direct, 6 запросов полные (wrestling glove 272 · wrestling puppet 282 · hand puppet 322 · kicker 391 · interactive 381 · teaser 326). (б) <b>поиск по 4 фото</b> — браузер+прокси, 48 товаров/фото (kk-front/catsumo-front/kk-hero/catsumo-hero). Слито → карта-чекбоксы (2013) в Этапе 2.</p></div>
   </div>
-  <div class="plat soon"><div class="ph">⚪ ALIEXPRESS <span class="stg wait" style="margin-left:auto">после Alibaba</span></div>
+  <div class="plat soon"><div class="ph">⚪ ALIEXPRESS <span class="stg wait" style="margin-left:auto">после отбора Alibaba</span></div>
     <div class="bd"><p class="src">Те же шаги (движки <code>aliexpress_harvest.py</code> / <code>aliexpress_image_search.py</code> готовы).</p></div></div>
   <div class="plat soon"><div class="ph">⚪ MADE-IN-CHINA <span class="stg wait" style="margin-left:auto">позже (если нужно)</span></div>
     <div class="bd"><p class="src">Те же шаги.</p></div></div>
@@ -101,20 +101,20 @@ td.thumb img{width:64px;height:78px;object-fit:cover}
     <div class="bd"><p class="src">Фабричные цены под финалистов + вопрос про премиум-упаковку.</p></div></div>
 
   <!-- ===================== ЭТАП 2 — ОТБОР + ТАБЛИЦА H1–H6 ===================== -->
-  <h2 style="margin-top:24px"><span class="et">Этап 2</span>Отбор → таблица H1–H6 <span class="stg ok">Alibaba собрана</span></h2>
-  <p class="sub" style="margin-top:-4px">Из собранного — широкий 1-й отбор галочками на карте (по ФОТО) → наша таблица отобранного. <span class="src">Сбор Alibaba: 6 запросов, <b>1263 уник. товара</b> за 144с (быстрый requests-direct). 2 запроса (interactive/teaser) досбираются после baxia-кулдауна → карта обновится.</span></p>
+  <h2 style="margin-top:24px"><span class="et">Этап 2</span>Отбор → таблица H1–H6 <span class="stg ok">Alibaba собрана ПОЛНОСТЬЮ</span></h2>
+  <p class="sub" style="margin-top:-4px">Из собранного — широкий 1-й отбор галочками на карте (по ФОТО) → наша таблица отобранного. <span class="src">Alibaba ПОЛНОСТЬЮ: 6 ключевых запросов (×10 стр) + <b>поиск по 4 фото</b> = <b>2013 уник. товара</b> (📷 = найдено по фото). Быстрый requests-direct + браузерный image-search.</span></p>
 
   <div class="plat done" style="border-color:#cdd8c2">
     <div class="bd" style="padding-top:14px">
-      <div class="hyp"><span class="t h1c">H1</span><span class="x">точный клон — arm-puppet wrestling glove + рукав + морда (наш товар!)</span><span class="c">139</span></div>
-      <div class="hyp"><span class="t h3c">H3</span><span class="x">кандидаты во 2-ю игрушку (kicker / teaser / wand)</span><span class="c">358</span></div>
-      <div class="hyp"><span class="t h4c">H4</span><span class="x">защитные/handling-перчатки + дешёвое (низкий приоритет)</span><span class="c">40</span></div>
-      <div class="hyp"><span class="t h5c">H5</span><span class="x">неожиданные крутые находки (interactive / electronic)</span><span class="c">176</span></div>
-      <div class="hyp"><span class="t h6c">H6</span><span class="x">смежные формы + собака (dog / dog+cat / др. puppet)</span><span class="c">77</span></div>
-      <div class="hyp"><span class="t" style="background:#b0894a">❓</span><span class="x">под вопросом — решить по фото · DROP (явно не то)</span><span class="c">369 · 104</span></div>
+      <div class="hyp"><span class="t h1c">H1</span><span class="x">точный клон — arm-puppet wrestling glove + рукав + морда (наш товар!)</span><span class="c">171</span></div>
+      <div class="hyp"><span class="t h3c">H3</span><span class="x">кандидаты во 2-ю игрушку (kicker / teaser / wand)</span><span class="c">722</span></div>
+      <div class="hyp"><span class="t h4c">H4</span><span class="x">защитные/handling-перчатки + дешёвое (низкий приоритет)</span><span class="c">41</span></div>
+      <div class="hyp"><span class="t h5c">H5</span><span class="x">неожиданные крутые находки (interactive / electronic)</span><span class="c">374</span></div>
+      <div class="hyp"><span class="t h6c">H6</span><span class="x">смежные формы + собака (dog / dog+cat / др. puppet)</span><span class="c">87</span></div>
+      <div class="hyp"><span class="t" style="background:#b0894a">❓</span><span class="x">под вопросом — решить по фото · DROP (явно не то)</span><span class="c">498 · 120</span></div>
     </div>
   </div>
-  <a class="lnk" href="master-map-alibaba.html" style="border:2px solid #2F7A73;border-radius:10px;padding:13px 15px;background:#EAF4F1;margin-top:4px"><span class="stg ok" style="background:#2F7A73">🗺 Alibaba</span><span><b>Карта H1–H6 с чекбоксами · Alibaba (1263)</b><br><span class="d">фото-сетка 4-в-ряд, автосейв; ставь ✓ 1-й отбор → «Скопировать выбранные» → пришли мне. Порядок H1→❓→DROP (внизу, не удалено).</span></span><span class="ar">→</span></a>
+  <a class="lnk" href="master-map-alibaba.html" style="border:2px solid #2F7A73;border-radius:10px;padding:13px 15px;background:#EAF4F1;margin-top:4px"><span class="stg ok" style="background:#2F7A73">🗺 Alibaba</span><span><b>Карта H1–H6 с чекбоксами · Alibaba (2013)</b><br><span class="d">6 ключевых + 4 фото слиты в одну; 📷 = найдено по фото. Фото-сетка 4-в-ряд, автосейв; ставь ✓ 1-й отбор → «Скопировать выбранные» → пришли мне. Порядок H1→❓→DROP (внизу).</span></span><span class="ar">→</span></a>
   <p class="src" style="margin-top:6px">🔑 Классификация H1–H6 — <b>по названию (черновая группировка)</b>, НЕ по фото. Реальный отбор — твой, визуальный, по карте (картинка первична). Авто-теги только чтобы сгруппировать; ничего не выброшено.</p>
 
   <!-- ===================== В Stage 1 ===================== -->
