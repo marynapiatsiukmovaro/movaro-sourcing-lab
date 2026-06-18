@@ -94,9 +94,9 @@ td.thumb img{width:64px;height:78px;object-fit:cover}
     <span class="kw">expandable cat carrier</span><span class="kw">foldable cat carrier bag</span><span class="kw broad">cat carrier bag <span class="src">→ широкий, H5</span></span><span class="kw">cat travel bag outdoor</span><span class="kw">large cat carrier soft <span class="src">→ H5</span></span><span class="kw">cat carrier backpack expandable <span class="src">→ H6</span></span><br>
     <b>Глубина:</b> ключевые — <b>10 страниц</b> (Alibaba) / 5–10 (AliExpress); поиск по фото — <b>2 страницы/фото</b>. Сбор — VPS + US-прокси + браузер (Playwright). Один проход тегает все H1–H6.</div>
 
-  <div class="plat next">
-    <div class="ph">🟡 ALIBABA <span class="stg next" style="margin-left:auto">старт здесь</span></div>
-    <div class="bd"><p class="src">(а) <b>6 ключевых × 10 стр</b> — быстрый requests-direct (движок <code>alibaba_harvest_fast.py</code>). (б) <b>поиск по фото</b> — браузер+прокси, ~48 товаров/фото. Слить → карта-чекбоксы в Этапе 2. <b>Тут анализируем полноценно</b> (Marina): покупаем, скорее всего, отсюда (агент шлёт с Alibaba/1688).</p></div>
+  <div class="plat done">
+    <div class="ph">🟢 ALIBABA <span class="stg ok" style="margin-left:auto">готово</span></div>
+    <div class="bd"><p class="src">(а) <b>6 ключевых × 10 стр = 1782 уник.</b> за 78с (requests-direct). Полные: expandable 436 · foldable-bag 410 · carrier-bag 405 · travel-outdoor 443 · large-soft 408 · backpack-expandable 153 <span class="src">(хвост стр 5–10 поймал кумулятивный baxia → дособеру после кулдауна, это H6-рюкзаки)</span>. (б) <b>поиск по 5 фото = 240</b> (48/фото, браузер+прокси). Слито+дедуп → <b>1897 уник.</b> → карта ниже.</p></div>
   </div>
   <div class="plat soon"><div class="ph">⚪ ALIEXPRESS <span class="stg wait" style="margin-left:auto">после Alibaba</span></div>
     <div class="bd"><p class="src">Те же шаги (браузер). = и доказательство спроса (реальные sold у референса). По факту решим, нужно ли идти дальше.</p></div></div>
@@ -104,19 +104,19 @@ td.thumb img{width:64px;height:78px;object-fit:cover}
     <div class="bd"><p class="src">Решаем <b>по факту</b> после Alibaba+AliExpress — хватит ли, или гнаться за фабричной ценой/упаковкой. 1688 — кит. прокси, под финалистов.</p></div></div>
 
   <!-- ===================== ЭТАП 2 — ОТБОР + ТАБЛИЦА H1–H6 ===================== -->
-  <h2 style="margin-top:24px"><span class="et">Этап 2</span>Отбор → таблица H1–H6 <span class="stg wait">ждёт сбора</span></h2>
-  <p class="sub" style="margin-top:-4px">Из собранного — широкий 1-й отбор галочками на карте (по ФОТО) → наша таблица отобранного. <span class="src">Карта-чекбоксы (механизм 1:1 с прошлым товаром: автосейв + «скопировать выбранные») появится здесь после сбора Alibaba.</span></p>
-  <div class="plat soon" style="border-color:#cdd8c2">
+  <h2 style="margin-top:24px"><span class="et">Этап 2</span>Отбор → таблица H1–H6 <span class="stg ok">Alibaba собрана</span></h2>
+  <p class="sub" style="margin-top:-4px">Из собранного — широкий 1-й отбор галочками на карте (по ФОТО) → наша таблица отобранного. <span class="src">Карта-чекбоксы (механизм 1:1: автосейв + «скопировать выбранные»). <b>1897 уник.</b> = 6 ключевых + поиск по 5 фото (📷 = найдено по фото).</span></p>
+  <div class="plat done" style="border-color:#cdd8c2">
     <div class="bd" style="padding-top:14px">
-      <div class="hyp"><span class="t h1c">H1</span><span class="x">точный клон — раскладной конвертибл (откидные боковины + сетка + верх + карабин)</span><span class="c">—</span></div>
-      <div class="hyp"><span class="t h2c">H2</span><span class="x">та же идея, лучше конструкция (дно/молнии/карабин/low-VOC/сетка)</span><span class="c">—</span></div>
-      <div class="hyp"><span class="t h3c">H3</span><span class="x">бандл-аксессуар (шторка-навес / коврик / клипса-поводок — ДРУГой товар)</span><span class="c">—</span></div>
-      <div class="hyp"><span class="t h4c">H4</span><span class="x">дешёвые дубли — «дно», низкий приоритет (не запускаем)</span><span class="c">—</span></div>
-      <div class="hyp"><span class="t h5c">H5</span><span class="x">неожиданные находки (лучшие конвертибл-дизайны, премиум-материалы)</span><span class="c">—</span></div>
-      <div class="hyp"><span class="t h6c">H6</span><span class="x">смежные формы (раскладной рюкзак / под коляску / dog-dual)</span><span class="c">—</span></div>
+      <div class="hyp"><span class="t h1c">H1</span><span class="x">раскладной конвертибл — «Expandable/Foldable Pet Carrier Bag» (НАШ класс; реально есть, $5.50–25)</span><span class="c">545</span></div>
+      <div class="hyp"><span class="t h3c">H3</span><span class="x">бандл-аксессуар (шторка / коврик / поводок — ДРУГой товар) <span class="src">— мало, наши запросы были про переноску; добьём отдельно при финале</span></span><span class="c">10</span></div>
+      <div class="hyp"><span class="t h5c">H5</span><span class="x">неожиданные находки (большой объём / прозрачные / airline / mesh / wheels)</span><span class="c">199</span></div>
+      <div class="hyp"><span class="t h6c">H6</span><span class="x">смежные формы — рюкзаки/коляски/sling <span class="src">(свёрнуто: 693 рюкзака — это НЕ наш товар, но сохранено)</span></span><span class="c">900</span></div>
+      <div class="hyp"><span class="t" style="background:#b0894a">❓</span><span class="x">под вопросом — решить по фото · DROP (явно не то)</span><span class="c">231 · 12</span></div>
     </div>
   </div>
-  <p class="src" style="margin-top:6px">🔑 Классификация H1–H6 — <b>по названию (черновая группировка)</b>, НЕ по фото. Реальный отбор — твой, визуальный, по карте (картинка первична). Авто-теги только чтобы сгруппировать; ничего не выбрасываем.</p>
+  <a class="lnk" href="master-map-alibaba.html" style="border:2px solid #2F7A73;border-radius:10px;padding:13px 15px;background:#EAF4F1;margin-top:6px"><span class="stg ok" style="background:#2F7A73">🗺 Alibaba</span><span><b>Карта H1–H6 с чекбоксами · Alibaba (1897)</b><br><span class="d">6 ключевых + 5 фото слиты в одну; 📷 = найдено по фото. Фото-сетка 4-в-ряд, автосейв. Ставь ✓ 1-й отбор (H1 = наш товар) → «Скопировать выбранные» → пришли мне. H6-рюкзаки и DROP свёрнуты внизу (не наш товар, но сохранены).</span></span><span class="ar">→</span></a>
+  <p class="src" style="margin-top:6px">🔑 Классификация H1–H6 — <b>по названию (черновая группировка)</b>, НЕ по фото. Реальный отбор — твой, визуальный, по карте (картинка первична). Авто-теги только чтобы сгруппировать; ничего не выбрасываем. <b>H2/H4 пустые</b> (по названию не отличить — это решается глазами в H1).</p>
 
   <!-- ===================== В Stage 1 ===================== -->
   <h2 style="margin-top:24px">→ Передать в Stage 1 (анализ) <span class="stg wait">после 0.2</span></h2>
